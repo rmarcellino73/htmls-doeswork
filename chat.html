@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Doeswork</title>
+    <meta name="description" content="The best chat as a service.">
+    <meta property="og:image" content="" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="favicon.ico">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap5-toggle@5.0.4/css/bootstrap5-toggle.min.css" rel="stylesheet">
+
+    <link href="css/dw.css" rel="stylesheet">
+
+    <link href="css/bootstrap.css" rel="stylesheet" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="row chat-panel">
+        <div class="col-auto tamanho-menu linha-right">
+            <nav class="main-menu">
+                <div class="menu">
+                    <div class="menu-top">
+                        <img src="img/logo-chat.svg" class="logo-sidebar">
+                        <a href="#" class="sidebar-bts">
+                            <div class="item-menu">
+                                <div class="ic-menu-border">
+                                    <div class="ic-menu">
+                                        <img src="img/ic-home.svg">
+                                    </div>
+                                </div>                                
+                                <div class="texto-menu">Home</div>
+                            </div>
+                            <div class="sep-bts"></div>
+                        </a>
+                        <a href="#" class="sidebar-bts">
+                            <div class="item-menu">
+                                <div class="ic-menu-border-inativa">
+                                    <div class="ic-menu">
+                                        <img src="img/ic-apis.svg">
+                                    </div>
+                                </div>                                
+                                <div class="texto-menu">API's</div>
+                            </div>
+                            <div class="sep-bts"></div>
+                        </a>
+                        <a href="#" class="sidebar-bts">
+                            <div class="item-menu">
+                                <div class="ic-menu-border-inativa">
+                                    <div class="ic-menu">
+                                        <img src="img/ic-media.svg">
+                                    </div>
+                                </div>                                
+                                <div class="texto-menu">Mídias</div>
+                            </div>
+                            <div class="sep-bts"></div>
+                        </a>
+                        <a href="#" class="sidebar-bts">
+                            <div class="item-menu">
+                                <div class="ic-menu-border-inativa">
+                                    <div class="ic-menu">
+                                        <img src="img/ic-config.svg">
+                                    </div>
+                                </div>                                
+                                <div class="texto-menu">Configurações</div>
+                            </div>
+                            <div class="sep-bts"></div>
+                        </a>
+                        <a href="#" class="sidebar-bts">
+                            <div class="item-menu">
+                                <div class="ic-menu-border-inativa">
+                                    <div class="ic-menu">
+                                        <img src="img/ic-user.svg">
+                                    </div>
+                                </div>                                
+                                <div class="texto-menu">Usuários</div>
+                            </div>
+                            <div class="sep-bts"></div>
+                        </a>
+                    </div>
+                    <div class="menu-bottom">
+                        <img src="img/ic-sair.svg">
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="col-auto painel">
+            <div class="painel-top">
+                Painel
+            </div>
+            <div class="pesquisas">
+                <div class="tit-pesquisas">
+                    Pesquisas Recentes
+                </div>
+                <div class="ico-pesquisas">
+                    <img src="img/ic-filtro.svg">
+                </div>
+            </div>
+            <div class="container mt-05">
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <div class="lista-recentes">
+                            <div class="logo-recentes">
+                                <div class="l-recente">
+                                    <img src="img/logo-recentes.svg">
+                                    <div class="badge-recente">
+                                        <div class="circle-recente-ativo"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="txt-recentes">
+                                <div class="col-12 t-recente1">
+                                    Gráfico de Vendas Março
+                                </div>
+                                <div class="col-12 t-recente2">
+                                    23/04/2024 - 17:10
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="lista-recentes">
+                            <div class="logo-recentes">
+                                <div class="l-recente">
+                                    <img src="img/logo-recentes.svg">
+                                    <div class="badge-recente">
+                                        <div class="circle-recente"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="txt-recentes">
+                                <div class="col-12 t-recente1">
+                                    Gráfico de Vendas Janeiro
+                                </div>
+                                <div class="col-12 t-recente2">
+                                    23/04/2024 - 17:10
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="lista-recentes">
+                            <div class="logo-recentes">
+                                <div class="l-recente">
+                                    <img src="img/logo-recentes.svg">
+                                    <div class="badge-recente">
+                                        <div class="circle-recente"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="txt-recentes">
+                                <div class="col-12 t-recente1">
+                                    Gráfico de Vendas Fevereiro
+                                </div>
+                                <div class="col-12 t-recente2">
+                                    23/04/2024 - 17:10
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                  </ul>
+            </div>
+        </div>
+        <div class="col">
+            <div class="top-chat cinza-bg-claro">
+                <div class="icone-chat">
+                    <div class="row">
+                        <div class="col-auto ic-chat">
+                            <img src="img/ic-chat.svg">
+                        </div>
+                        <div class="col-auto">
+                            <div class="chat-title">
+                                <div class="row">
+                                    <div class="col-12 titulo-chat">
+                                        Processamento de Gráfico de Vendas <img src="img/ic-edit.svg">
+                                    </div>
+                                    <div class="col-12 tags-chat">
+                                        Vendas, Gráficos, PDF <img src="img/ic-edit.svg">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+                <div class="ic-expande">
+                    <a href="javascript:toggleFullScreen(document.body)"><img src="img/ic-expande.svg"></a>
+                </div>
+            </div>
+            
+            <div class="col-auto conversa">
+                <div class="col-12 chat-conversa">
+                    
+                    
+                    <div class="container-fluid h-100">
+                        <div class="row justify-content-center h-100">
+                            
+                            <div class="col-12 chat">
+                                <div class="card">
+                                    
+                                    <div class="card-body msg_card_body">
+                                        <div class="lista-chat spacing-chat">
+                                            <div class="logo-recentes">
+                                                <div class="l-recente">
+                                                    <img class="avatar-chat" src="img/logo-recentes.svg">
+                                                </div>
+                                            </div>
+                                            <div class="txt-recentes">
+                                                <div class="col-12 t-recente1">
+                                                    AI <span class="t-recente2 espaco-hora-chat">23/04/2024 - 17:10</span>
+                                                </div>
+                                                <div class="col-12">
+                                                    Olá como posso lhe ajudar?
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="lista-chat spacing-chat">
+                                            <div class="logo-recentes">
+                                                <div class="l-recente">
+                                                    <img class="avatar-chat" src="img/clara.png">
+                            
+                                                </div>
+                                            </div>
+                                            <div class="txt-recentes">
+                                                <div class="col-12 t-recente1">
+                                                    Clara <span class="t-recente2 espaco-hora-chat">23/04/2024 - 17:10</span>
+                                                </div>
+                                                <div class="col-12">
+                                                    Faça um gráfico de barras que mostre fluxo mensal, sendo os meses no eixo X e o numero de vendas no eixo Y.
+                                                </div>
+                                            </div>
+                                        </div>
+                        
+                                        <div class="lista-chat spacing-chat top-ic-chat">
+                                            <div class="logo-recentes">
+                                                <div class="l-recente">
+                                                    <img class="avatar-chat" src="img/logo-recentes.svg">
+                                                </div>
+                                            </div>
+                                            <div class="txt-recentes">
+                                                <div class="col-12 t-recente1">
+                                                    AI <span class="t-recente2 espaco-hora-chat">23/04/2024 - 17:10</span>
+                                                </div>
+                                                <div class="col-12">
+                                                    Solicitação processada. Para Exportar, selecione um dos itens do menu abaixo.
+                                                </div>
+                                                <div class="col-12 barra-export">
+                                                    <div>
+                                                        Salvar em: <img class="bts-export" src="img/bt-pdf.svg"> <img class="bts-export" src="img/bt-png.svg"> <img class="bts-export" src="img/bt-texto.svg">
+                                                    </div>
+                                                    <div class="expand-conversa">
+                                                        <a href="javascript:toggleFullScreen(documentElement)"><img src="img/ic-expande.svg"></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        
+                                        
+                                    </div>
+                                    <div class="card-footer">
+                                        <div class="row area-digitavel">
+                                            <div class="col">
+                                                <input type="text" class="input-conversa" placeholder="Digite aqui...">
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="#x"><img src="img/ic-audio.svg"></a> <img class="ic-video" src="img/ic-video.svg">
+                                            </div>
+                                        </div>
+                                        <div class="row area-digitavel-bts">
+                                            <div class="col">
+                                                <a href="#" class="bt-enviar">Enviar</a>
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="#"><img src="img/ic-attach.svg"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+
+            </div>
+
+            
+
+        </div>
+        <div class="col-auto painel-dir">
+            <div class="painel-top w-sidebars">
+                <div class="lista-recentes">
+                    <div class="logo-recentes">
+                        <div class="l-recente">
+                            <img src="img/clara.png">
+                        </div>
+                    </div>
+                    <div class="txt-recentes">
+                        <div class="col-12 t-recente1">
+                            Olá, <span class="nome-user">Clara</span>
+                        </div>
+                        <div class="col-12 t-user">
+                            Planejamento Interno
+                        </div>
+                        <div class="col-12 t-user">
+                            Doeswork
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container w-sidebars">
+                <div class="integracoes">
+                    <div class="tit-integracoes">Integrações</div>
+                    <div class="ic-integracoes"><img src="img/ic-add.svg"></div>
+                </div>
+            </div>
+            <div class="container w-sidebars mt-15 p-3">
+                <div class="row ajst-integra">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <div class="lista-integracaoes">
+                                <div class="integra-esquerda">
+                                    <img src="img/bt-dw-off.png" class="img-integra"> <span class="txt-integra">Google Maps</span>
+                                </div>
+                                <div class="integra-direita">
+                                    <input type="checkbox" data-toggle="toggle" data-height="20">
+                                </div>
+                            </div>
+                            <div class="separador"></div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="lista-integracaoes">
+                                <div class="integra-esquerda">
+                                    <img src="img/bt-dw-off.png" class="img-integra"> <span class="txt-integra">Active Campaign</span>
+                                </div>
+                                <div class="integra-direita">
+                                    <input type="checkbox" data-toggle="toggle" data-height="20">
+                                </div>
+                            </div>
+                            <div class="separador"></div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="lista-integracaoes">
+                                <div class="integra-esquerda">
+                                    <img src="img/bt-dw-off.png" class="img-integra"> <span class="txt-integra">Clima</span>
+                                </div>
+                                <div class="integra-direita">
+                                    <input type="checkbox" data-toggle="toggle" data-height="20">
+                                </div>
+                            </div>
+                            <div class="separador"></div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="lista-integracaoes">
+                                <div class="integra-esquerda">
+                                    <img src="img/bt-dw-off.png" class="img-integra"> <span class="txt-integra">Correios</span>
+                                </div>
+                                <div class="integra-direita">
+                                    <input type="checkbox" data-toggle="toggle" data-height="20">
+                                </div>
+                            </div>
+                            <div class="separador"></div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="lista-integracaoes">
+                                <div class="integra-esquerda">
+                                    <img src="img/bt-dw-off.png" class="img-integra"> <span class="txt-integra">Totvs</span>
+                                </div>
+                                <div class="integra-direita">
+                                    <input type="checkbox" data-toggle="toggle" data-height="20">
+                                </div>
+                            </div>
+                            <div class="separador"></div>
+                        </li>
+                    </ul>                                    
+
+                
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap5-toggle@5.0.4/js/bootstrap5-toggle.ecmas.min.js"></script>
+
+    <script src="js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>   
+    <script src="js/dw.js" crossorigin="anonymous"></script>   
+
+
+</body>
+</html>
