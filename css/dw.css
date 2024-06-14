@@ -1,0 +1,684 @@
+/* Import Fonts */
+@import url('https://fonts.cdnfonts.com/css/conduit-itc-medium');
+
+@import url("https://use.typekit.net/bxq5kis.css");
+
+/* Base CSS */
+
+body{
+    color:#232323;
+    font-family: "astoria-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    overflow-y: hidden !important;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+*:fullscreen
+*:-ms-fullscreen,
+*:-webkit-full-screen,
+*:-moz-full-screen {
+   overflow: auto !important;
+}
+
+.authpage{
+    width: 100vw;
+    height: 100vh;
+    background-color:transparent;
+    background-image: url('../img/bg-log.png');
+    background-size: cover;
+}
+
+.logo-row{
+    padding-top: 100px;
+}
+
+.titulo-login{
+    padding-top: 30px;
+    font-family: 'Conduit ITC Medium', sans-serif;
+    font-size: 45px;
+}
+
+.w-bt-login{
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+}
+
+.w-bt-esqueci{
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.bt-back{
+    color: #232323;
+}
+
+.bt-back:hover{
+    color: #A8CA3F;
+}
+
+
+/* Chat */
+
+.chat-conversa{
+    padding: 16px;
+    font-family: "astoria-sans", sans-serif;
+    height: 90vh;
+}
+
+.avatar-ia{
+    width: 49px;
+    height: 49px;
+}
+
+.spacing-chat{
+    margin-bottom: 25px;
+}
+
+.lista-chat{
+    display: flex;
+    justify-content:left;
+}
+
+.avatar-chat{
+    width: 49px;
+    height: 49px;
+}
+
+.espaco-hora-chat{
+    margin-left: 15px;
+}
+
+.bts-export{
+    margin-left: 20px;
+}
+
+.barra-export{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    padding-left: 16px;
+    width: 100%;
+    height: 56px;
+    border-radius: 7px;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    /* Note: currently only Safari supports backdrop-filter */
+    backdrop-filter: blur(50px);
+    --webkit-backdrop-filter: blur(50px);
+    background-color: rgba(0, 0, 0, 0.2);
+    /* (plus shape's fill blended on top as a separate layer with 89.86% opacity) */
+    font-family: "astoria-sans", sans-serif;
+    font-size: 13px;
+}
+
+.expand-conversa{
+    margin-right: 16px;
+}
+
+.chat-panel{
+    background-color: #232323;
+    color: #fff;
+    width: 100.7vw;
+    height: 100vh;
+}
+
+
+
+.painel{
+    background-color: #2D2D2D;
+    padding: 0px !important;
+    border-right: 1px solid #454545;
+}
+
+.painel-dir{
+    background-color: #2D2D2D;
+    padding: 0px !important;
+    width: 274px;
+    border-left: 1px solid #454545;
+}
+
+.cinza-bg-claro{
+    background-color: #2D2D2D;
+}
+
+.linha-right{
+    border-right: 1px solid #454545;
+}
+
+.painel-top{
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 80px;
+    border-bottom: 1px solid #454545;
+    font-family: "astoria-sans", sans-serif;
+    font-size: 20px;
+    padding: 16px;
+}
+
+.top-chat{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    height: 80px;
+    border-bottom: 1px solid #454545;
+    font-family: "astoria-sans", sans-serif;
+    font-size: 20px;
+    padding: 16px;
+}
+
+.tags-chat{
+    font-size: 15px;
+    color: #9EA3AD;
+}
+
+.titulo-chat{
+    font-size: 18px;
+    color: #fff;
+}
+
+.chat-title{
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.ic-chat{
+    padding-top: 15px;
+}
+
+.icone-chat{
+    padding-left: 14px;
+}
+
+.pesquisas{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width: auto;
+    height: 70px;
+    border-bottom: 1px solid #454545;
+    padding: 18px;
+    font-family: "astoria-sans", sans-serif;
+    font-size: 16px;
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: .5rem 1rem;
+    color: #fff !important;
+    text-decoration: none;
+    font-family: "astoria-sans", sans-serif;
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.lista-recentes{
+    display: flex;
+    align-items: center;
+    justify-content:left;
+}
+
+
+
+.badge-recente{
+    position: absolute;
+    top: 40px;
+    left: 50px;
+}
+
+.circle-recente-ativo { 
+    width: 15px;
+    height: 15px;
+    background: #53E04E; 
+    -moz-border-radius: 40px; 
+    -webkit-border-radius: 40px; 
+    border-radius: 40px;
+ }
+
+.circle-recente { 
+    width: 15px;
+    height: 15px;
+    background: #a9a9a9; 
+    -moz-border-radius: 40px; 
+    -webkit-border-radius: 40px; 
+    border-radius: 40px;
+ }
+
+.t-recente1{
+    font-family: "astoria-sans", sans-serif;
+    font-size: 13px;
+}
+
+.t-recente2{
+    font-family: "astoria-sans", sans-serif;
+    font-size: 12px;
+    color: #707070;
+}
+
+.t-user{
+    font-family: "astoria-sans", sans-serif;
+    font-size: 12px;
+    color: #9EA3AD;
+}
+
+.txt-recentes{
+    margin-left: 18px;
+}
+
+.nome-user{
+    font-weight: 700 !important;
+}
+
+.lista-integracaoes{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.integracoes{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.separador {
+    position: relative;
+    margin-top: 15px;
+    width: 100%;
+    height: 1px;
+    background-color: #454545;
+}
+
+.integra-direita{
+    transform: scale(0.7);
+}
+
+.tit-integracoes{
+    font-family: "astoria-sans", sans-serif;
+    position: relative;
+    color: #9EA3AD;
+}
+
+.ic-integracoes{
+    position: relative;
+}
+
+.img-integra{
+    width: 40px;
+    height: auto;
+}
+
+.txt-integra{
+    padding-left: 5px;
+    font-family: "astoria-sans", sans-serif;
+    font-size: 12px;
+    color: #fff;;
+}
+
+.center-all{
+    display: flex;
+    justify-content: center;
+}
+
+.row > * {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+.ajst-integra{
+    padding-right: none !important;
+    padding-left: none !important;
+}
+
+.color-2{
+    background-color: #232323;
+}
+
+.w-sidebars{
+    width: 300px;
+    max-width: 300px;
+}
+
+
+
+.chat{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.card{
+    height: 88vh;
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.msg_card_body{
+    overflow-y: auto;
+}
+
+.card-footer{
+    height: auto;
+    background: #2D2D2D !important;
+    border: 1px solid #454545 !important;
+}
+
+.card-footer:last-child {
+    border-radius: 12px !important;
+}
+
+ 
+.area-digitavel{
+    padding: 5px 16px;
+    border-bottom: 1px solid #454545;
+}
+
+.area-digitavel-bts{
+    padding: 5px 16px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px !important;
+}
+
+.ic-video{
+    margin-left: 10px;
+}
+
+.input-conversa{
+    width: 90%;
+    border-radius: 0 !important;
+    background-color: #2D2D2D;
+    border: none !important;
+    height: 40px;
+    color: #9EA3AD;
+    outline: none !important;
+    padding-left: 0px !important;
+}
+
+.bt-enviar{
+    color: #9EA3AD;
+    font-family: "astoria-sans", sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    height: 60px !important;
+}
+
+.bt-enviar:hover{
+    color: #C7684C;
+}
+
+
+/* Buttons */
+
+a.button-light {
+    background: #f5f5fa;
+    border: 1.5px solid #232323;
+    border-radius: 60px;
+    font-family: "astoria-sans", sans-serif;
+    padding: 15px;
+    transition: .2s;
+    text-decoration: none;
+    color: #232323;
+  }
+  
+  a.button-light:hover {
+    background-color: #A8CA3F;
+    color: #232323;
+    border: 1.5px solid #A8CA3F;
+  }
+          
+  a.button-dark {
+    background: #232323;
+    border: 1.5px solid #232323;
+    border-radius: 60px;
+    font-family: "astoria-sans", sans-serif;
+    padding: 15px;
+    transition: .2s;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  a.button-dark:hover {
+    background-color: #A8CA3F;   
+    color: #232323;
+    border: 1.5px solid #A8CA3F;
+  }
+
+.bt-sidebar{
+    width: 48px;
+    height: 48px;
+    background: linear-gradient(#f69248 0%, #f94390 49.75%, #0582ec 100%);
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+
+/* Menu */
+
+.logo-sidebar{
+    margin-bottom: 50px;
+}
+
+.item-menu{
+    position: relative;
+    width: 100px;
+    display: flex;
+}
+
+.ic-menu{
+    background-color: #191919;
+    border-radius: 16px;
+    padding: 10px;
+}
+
+.ic-menu-border{
+    position: relative;
+    margin-left: 23px;
+    background: linear-gradient(#f69248 0%, #f94390 49.75%, #0582ec 100%);
+    border-radius: 16px;
+    padding: 2px;
+}
+
+.ic-menu-border-inativa{
+    position: relative;
+    margin-left: 23px;
+    background: transparent;
+    border-radius: 16px;
+    padding: 2px;
+}
+
+.sep-bts{
+    height: 15px;
+}
+
+a.sidebar-bts {
+    color: #9EA3AD !important;
+}
+
+a.sidebar-bts:hover .texto-menu{
+    color: #f69248;
+}
+
+
+
+.texto-menu{
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    position: relative;
+    width: 100px;
+    height: 100vh;
+    text-align: center;
+}
+
+.menu-top{
+    padding-top: 20px;
+}
+
+.menu-bottom{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding-bottom: 30px;
+}
+
+.tamanho-menu{
+    width: 110px !important;
+}
+
+.main-menu:hover, nav.main-menu.expanded {
+    width:250px;
+    overflow:hidden;
+    opacity:1;
+}
+    
+.main-menu {
+    display: flex;
+    background:#232323;
+    position:absolute;
+    top:0;
+    bottom:0;
+    height:100%;
+    left:0;
+    width:100px;
+    overflow:hidden;
+    -webkit-transition:width .2s linear;
+    transition: width .2s linear;
+    transform:translateZ(0) scale(1,1);
+    box-shadow: 1px 0 15px rgba(0, 0, 0, 0.07);
+    opacity:1;
+    z-index: 999;
+}
+
+nav {
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    -o-user-select:none;
+    user-select:none;
+}    
+
+
+/* Forms */
+
+input{
+    border: 1px solid #707070;
+    background-color: #fff;
+    font-family: "astoria-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 60px;
+    padding: 10px 20px;
+}
+
+
+/* Tags */
+
+.astoria{
+    font-family: "astoria-sans", sans-serif;
+}
+
+.mt-05{
+    margin-top: 5px;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.mt-15{
+    margin-top: 15px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.mt-20{
+    margin-top: 30px;
+}
+.mt-30{
+    margin-top: 40px;
+}
+.mt-40{
+    margin-top: 50px;
+}
+.mt-50{
+    margin-top: 60px;
+}
+
+.ml-10{
+    margin-left: 10px;
+}
+.ml-20{
+    margin-left: 20px;
+}
+.ml-30{
+    margin-left: 30px;
+}
+
+
+.pt-10{
+    padding-top: 10px;
+}
+.pt-15{
+    padding-top: 15px;
+}
+.pt-20{
+    padding-top: 20px;
+}
+.pt-20{
+    padding-top: 30px;
+}
+.pt-30{
+    padding-top: 40px;
+}
+.pt-40{
+    padding-top: 50px;
+}
+.pt-50{
+    padding-top: 60px;
+}
+
+
+
+.w-100{
+    width:100%;
+}
+
+.w-50{
+    width:50%;
+}
+
+
+/* Conteudo Geral */
+
+.conteudo-geral{
+    overflow-y: scroll;
+    background: #53E04E;
+    padding: 20px;
+}
+
+
+@media (max-width: 480px) {
+    .w-bt-esqueci{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .center-mobile{
+        text-align: center;
+    }
+
+    .authpage{
+        width: 100vw;
+        height: 100vh;
+        background-color:#fff;
+        background-image: url('../img/bg-mob.jpg');
+        background-size: cover;
+    }
+}
