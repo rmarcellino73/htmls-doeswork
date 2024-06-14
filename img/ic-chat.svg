@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38">
+  <g id="Grupo_67889" data-name="Grupo 67889" transform="translate(-526 -129.858)">
+    <rect id="Icon" width="38" height="38" rx="19" transform="translate(526 129.858)" fill="#9233bd"/>
+    <g id="Pen" transform="translate(533 136.858)">
+      <rect id="Retângulo_147942" data-name="Retângulo 147942" width="24" height="24" fill="none"/>
+      <g id="Grupo_67847" data-name="Grupo 67847" transform="translate(3.005 3.004)">
+        <g id="Grupo_67846" data-name="Grupo 67846">
+          <path id="Caminho_35785" data-name="Caminho 35785" d="M14.416,20.416l-.063-.063a.5.5,0,0,1,0-.707l5.293-5.293a.5.5,0,0,1,.707,0l.063.063a2,2,0,0,1,0,2.828l-3.172,3.172a2,2,0,0,1-2.828,0Z" transform="translate(-3.005 -3.004)" fill="#fff"/>
+          <path id="Caminho_35786" data-name="Caminho 35786" d="M3.015,5.9,4.49,13.41a5,5,0,0,0,2.936,3.631l4.262,1.827a.5.5,0,0,0,.55-.106L18.76,12.24a.5.5,0,0,0,.106-.55L17.04,7.427a5,5,0,0,0-3.631-2.936L5.889,3.013a.5.5,0,0,0-.452.841l5.12,5.195a2,2,0,1,1-1.515,1.545L3.856,5.45a.5.5,0,0,0-.842.451Z" transform="translate(-3.005 -3.004)" fill="#fff" fill-rule="evenodd"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

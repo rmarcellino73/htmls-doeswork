@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="21.333" viewBox="0 0 24 21.333">
+  <g id="ic-user" transform="translate(-3 -4)">
+    <g id="Grupo_45" data-name="Grupo 45" transform="translate(3 4)">
+      <path id="Caminho_35751" data-name="Caminho 35751" d="M5.308,9.181a5.23,5.23,0,1,1,5.229,5.179A5.206,5.206,0,0,1,5.308,9.181Z" transform="translate(-2.231 -4)" fill="#fff"/>
+      <path id="Caminho_35752" data-name="Caminho 35752" d="M8,13.6l.22-.035a19.776,19.776,0,0,1,6.173,0l.219.035a5.9,5.9,0,0,1,5,5.808,2.837,2.837,0,0,1-2.851,2.824H5.852A2.839,2.839,0,0,1,3,19.4,5.9,5.9,0,0,1,8,13.6Z" transform="translate(-3 -0.894)" fill="#fff"/>
+      <path id="Caminho_35753" data-name="Caminho 35753" d="M15,4a.914.914,0,1,0,0,1.828,3.353,3.353,0,1,1,0,6.705.914.914,0,1,0,0,1.828A5.181,5.181,0,1,0,15,4Z" transform="translate(0.692 -4)" fill="#fff"/>
+      <path id="Caminho_35754" data-name="Caminho 35754" d="M16.146,13.492a.914.914,0,1,0,0,1.828h1.192a2.012,2.012,0,0,1,.3.023,4.064,4.064,0,0,1,3.445,4,1,1,0,0,1-1.005,1H17.559a.914.914,0,1,0,0,1.828h2.515a2.839,2.839,0,0,0,2.852-2.824,5.9,5.9,0,0,0-5-5.808,3.763,3.763,0,0,0-.587-.045Z" transform="translate(1.074 -0.836)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
